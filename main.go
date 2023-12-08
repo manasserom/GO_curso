@@ -8,7 +8,9 @@ import (
 
 func main() {
 	fmt.Println("Hola mundo")
-	variables.MuestroEnteros()
-	variables.RestoVariables()
-
+	//variables.MuestroEnteros()
+	//variables.RestoVariables()
+	estado, text := variables.ConviertoaTexto(123)
+	fmt.Println(estado)
+	fmt.Println(text)
 }

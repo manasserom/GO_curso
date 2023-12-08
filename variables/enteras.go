@@ -1,6 +1,9 @@
 package variables
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func MuestroEnteros() {
 	var intComun int
@@ -10,4 +13,9 @@ func MuestroEnteros() {
 	fmt.Println("indComun: ", intComun)
 	fmt.Println("intde32: ", intde32)
 	fmt.Println("intde64: ", intde64)
+}
+func ConviertoaTexto(numero int) (bool, string) {
+	var texto string
+	texto = strconv.Itoa(numero)
+	return true, "t" + texto + "t"
 }
