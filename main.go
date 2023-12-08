@@ -1,15 +1,15 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/manasserom/GO_curso/ejercicios"
+	"github.com/manasserom/GO_curso/teclado"
 )
 
 func main() {
-	numero, mayor := ejercicios.ConvertirString("104")
-	fmt.Println(numero)
-	fmt.Println(mayor)
+	teclado.IngresoNumeros()
+
+	// entrada = fmt.Scanln()
+	// fmt.Println(numero)
+	// fmt.Println(mayor)
 
 	// fmt.Println("Hola Mundo con push automatizado")
 	// //variables.MuestroEnteros()
