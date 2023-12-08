@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hola Mundo")
+	fmt.Println("Hola Mundo con push automatizado")
 	//variables.MuestroEnteros()
 	//variables.RestoVariables()
 	estado, text := variables.ConviertoaTexto(123)
