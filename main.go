@@ -9,5 +9,6 @@ import (
 func main() {
 	fmt.Println("Hola mundo")
 	variables.MuestroEnteros()
+	variables.RestoVariables()
 
 }
