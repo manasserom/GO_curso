@@ -1,11 +1,11 @@
 package main
 
-import (
-	"github.com/manasserom/GO_curso/ejercicios"
-)
+import "github.com/manasserom/GO_curso/files"
 
 func main() {
-	ejercicios.TablaNumerica()
+	files.LecturaArchivo()
+	// files.AppendTabla()
+	// fmt.Println(ejercicios.TablaNumericaGuardada())
 	//teclado.IngresoNumeros()
 
 	// entrada = fmt.Scanln()
