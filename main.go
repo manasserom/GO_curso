@@ -3,8 +3,8 @@ package main
 import "github.com/manasserom/GO_curso/files"
 
 func main() {
-	files.LecturaArchivo()
-	// files.AppendTabla()
+	//files.LecturaArchivo()
+	files.AppendTabla()
 	// fmt.Println(ejercicios.TablaNumericaGuardada())
 	//teclado.IngresoNumeros()
 
