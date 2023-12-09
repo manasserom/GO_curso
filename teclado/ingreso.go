@@ -39,3 +39,21 @@ func IngresoNumeros() {
 
 	println(leyenda, numero1*numero2)
 }
+func ScanNumero() int {
+	scanner := bufio.NewScanner(os.Stdin)
+	var numero int
+	fmt.Println("Ingrese numero:")
+	for {
+		if scanner.Scan() {
+			numero, err = strconv.Atoi(scanner.Text())
+			if err != nil {
+				println("No ingreso un numero")
+				// println(err.Error())
+				// panic("Dato ingresado es incorrecto")
+			} else {
+				break
+			}
+		}
+	}
+	return numero
+}

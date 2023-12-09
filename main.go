@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/manasserom/GO_curso/teclado"
+	"github.com/manasserom/GO_curso/ejercicios"
 )
 
 func main() {
-	teclado.IngresoNumeros()
+	ejercicios.TablaNumerica()
+	//teclado.IngresoNumeros()
 
 	// entrada = fmt.Scanln()
 	// fmt.Println(numero)
